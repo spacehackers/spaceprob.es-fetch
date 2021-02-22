@@ -15,7 +15,6 @@
     "node-fetch": "^2.6.1"
   },
   "devDependencies": {
-    "claudia": "^5.13.0",
     "claudia-local-api": "^3.0.5"
   }
 }
