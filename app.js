@@ -4,6 +4,10 @@ var ApiBuilder = require('claudia-api-builder'),
 
 module.exports = api;
 
+api.get('/hello', function() {
+  return 'hi!';
+});
+
 api.get('/solo', function (request) {
   return fetch('http://estracknow.esa.int/live/mission/SOLO').then(res => res.json())
 },{
