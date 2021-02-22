@@ -1,0 +1,11 @@
+{
+  "lambda": {
+    "role": "spaceprob_es-fetch-executor",
+    "name": "spaceprob_es-fetch",
+    "region": "us-east-1"
+  },
+  "api": {
+    "id": "a1l2s1drd5",
+    "module": "app"
+  }
+}
