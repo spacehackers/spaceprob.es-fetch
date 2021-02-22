@@ -4,7 +4,9 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create": "claudia create --region us-east-1 --api-module app",
+    "update": "claudia update"
   },
   "author": "",
   "license": "ISC",
@@ -13,6 +15,7 @@
     "node-fetch": "^2.6.1"
   },
   "devDependencies": {
+    "claudia": "^5.13.0",
     "claudia-local-api": "^3.0.5"
   }
 }
